@@ -1,0 +1,28 @@
+.fab {
+    color: $main-text-color;
+    font-size: 2.5em;
+    padding: 0 20px;
+    &:hover {
+        color: #fff;
+    }
+}
+.footer {
+    position: absolute;
+    display: -webkit-inline-box;
+    font-family: 'Inconsolata', monospace;
+    padding: 70px 120px;
+    top: 110px;
+    margin-left: 15%;
+}
+#followme {
+    color: $main-text-color;
+    padding-left: 20px;
+}
+
+.contactme {
+    color: $main-text-color;
+    margin: 10px 50px 10px 150px;
+}
+.social {
+    margin: 10px 200px 10px 0px;
+}

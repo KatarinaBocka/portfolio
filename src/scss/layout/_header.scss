@@ -1,0 +1,164 @@
+$main-text-color: #242734;
+$submain-text-color: #ffc80b;
+
+.header-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    h1 {
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-family: 'Inconsolata', monospace;
+        font-weight: bold;
+        display: flex;
+        justify-content: flex-start;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        .primary {
+            color: $submain-text-color;
+            margin-left: 5px;
+        }
+    }
+    #menumobile {
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        color: #242734;
+        cursor: pointer;
+        font-size: 2.02729em;
+        opacity: 1;
+    }
+    .activ {
+        opacity: 0;
+    }
+}
+.burger{
+    width: 100px;
+    height: 100px;
+    transform: translate(-0%, -5%);
+    
+  }
+  svg path, svg line {
+      stroke: $main-text-color;
+      stroke-width: 6px;
+      stroke-linecap: round;
+      fill: none;
+  }
+  .trigger {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 5;
+    top: 0;
+    left: 0;
+  }
+
+  nav {
+      display: none;
+      ul {
+          li {
+              display: inline-block;
+              padding: 20px;
+              a {
+                  text-decoration: none;
+                  font-family: $main-font;
+                  color: $submain-text-color;
+                  font-weight: bold;
+                  &:hover {
+                      color: $main-text-color;
+                      text-decoration: none;
+                  }
+              }
+          }
+      }
+  }
+  #navMain {
+      display: none;
+  }
+
+/* -------- Main Cover -------- */
+
+.title {
+    font-family: $submain-font;
+    font-size: 3.6rem;
+    font-weight: bolder;
+}
+#title1 {
+    animation: fadeInLeft 2s linear alternate;
+}
+#title2 {
+    animation: fadeInLeft 2.5s linear alternate;
+}
+#title3 {
+    animation: fadeInLeft 4s linear alternate;
+}
+#paragraph {
+    font-family: $main-font;
+    width: 400px;
+    font-size: 1.06875em;
+    line-height: 1.80203em;
+    margin: 30px 0;
+    .fa-heart {
+        color: $submain-text-color;
+    }
+}
+.img-header {
+    img {
+        height: 467px;
+        width: 350px;
+    }
+}
+
+/* ------- Move Eyes ------ */
+.eyes {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    right: 350px;
+    .left-eye {
+        position: absolute;
+        top: 30px;
+        left: 64px;
+        min-height: 18px;
+        width: 28px;
+        .pupil-left {
+            background-image: url("../images/eye2.png");
+            background-position: center, center;
+            background-repeat: no-repeat;
+            background-size: inherit;
+            height: 20px;
+            width: 100%;
+        }
+    }
+    .right-eye {
+        position: absolute;
+        top: 41px;
+        left: 112px;
+        min-height: 18px;
+        width: 28px;
+        .pupil-right {
+            background-image: url("../images/eye1.png");
+            background-position: center, center;
+            background-repeat: no-repeat;
+            background-size: inherit;
+            height: 20px;
+            width: 100%;
+        }
+    }
+}
+.with-eyes {
+    display: none;
+}
+
+
+/* ------- Text Animations ------- */
+@keyframes fadeInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0; }
+    to {
+      transform: translateX(0);
+      opacity: 1; } }

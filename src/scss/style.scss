@@ -1,0 +1,26 @@
+$bg-color: #fff;
+$color: #000;
+
+body {
+    background: $bg-color;
+    color:$color;
+}
+/* ---------- Base ----------- */
+@import 'base/reset';
+@import 'base/typography';
+
+/* ---------- Layout ---------- */
+@import 'layout/header';
+@import 'layout/icons';
+@import 'layout/buttons';
+@import 'layout/layout';
+@import 'layout/footer';
+
+/* ---------- Media ---------- */
+@import 'media/desktop';
+@import 'media/tablet';
+@import 'media/phone';
+
+#wrapper{
+    padding: 30px 180px 20px;
+}

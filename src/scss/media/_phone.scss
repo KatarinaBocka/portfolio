@@ -1,0 +1,73 @@
+@media only screen and (min-width:0px) and (max-width:680px) {
+    #wrapper {
+      padding: 30px 20px 20px !important;
+    }
+    .without-eyes {
+      display: none;
+  }
+  .eyes {
+      display: none;
+  }
+  .with-eyes {
+    display: block;
+    height: 295px !important;
+    width: 310px !important;
+    top: 20px;
+    right: 16px;
+    position: relative;
+  }
+  .title {
+      font-size: 2.8rem;
+  }
+  .burger {
+      position: absolute;
+      margin-top: 15px;
+      top: -6px;
+  }
+  .logo {
+      display: none !important;
+  }
+  nav {
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 90px;
+
+    ul li {
+        padding: 10px;
+    }
+  }
+  .title {
+      font-size: 2rem;
+  }
+  .cover-main-text {
+      text-align: center;
+  }
+  #paragraph {
+      width: 100%;
+      text-align: center;
+  }
+  .main-cover {
+    margin-top: 40px !important;
+  }
+  .contactme {
+      display: none;
+  }
+  #followme {
+    display: none;
+  }
+  .social {
+    display: inline-flex;
+    margin: 0;
+  }
+  .footer {
+    position: absolute;
+    display: -webkit-inline-box;
+    font-family: 'Inconsolata', monospace;
+    top: 65px;
+    margin-left: 20%;
+    padding: 0;
+  }
+}
+
+

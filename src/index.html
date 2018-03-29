@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <title>&#10084; CV</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Library -->
+  <!-- <script src="library/moveit.js"></script> -->
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <div class="header-content">
+        <h1 class="logo">Katarina <span class="primary">Čizmar</span></h1>
+        <nav class="main-nav" id="navMain">
+          <ul>
+            <li><a href="#followme">Follow Me</a></li>
+            <li><a href="pdf/cv.pdf" target="_blank">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="burger" onclick="navigation()">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            width="60.2px" height="100px" viewBox="0 0 77.2 76" style="enable-background:new 0 0 77.2 76;" xml:space="preserve">
+            <path id="first" d="M19.8,25.7h40c20,0,20,35-10,45c-21.4,5.4-43.2-7.6-48.6-29C-2,29,1.2,15.5,9.8,5.7l60,60"/>
+            <path id="middle" d="M19.8,35.7h40"/>
+            <path id="second" d="M59.8,45.7h-40c-20,0-20-40,10-45C51.5-3.2,72.4,10.3,76.5,31S66.4,71.4,44.6,75.3C32.1,77.6,19.1,74,9.8,65.7
+           l60-60"/>
+          </svg>
+          <div class="trigger"></div>  
+        </div>
+      </div>
+    </header>
+
+    <div class="container-fluid  main-cover">
+      <div class="row">
+        <div class="cover-main-text col-lg-6 col-md-12 col-sm-12">
+            <div class="text-content">
+                <h1 class="title" id="title1">Live,</h1>
+                <h1 class="title" id="title2">Love,</h1>
+                <h1 class="title" id="title3">Work Hard!</h1>
+                <p id="paragraph">HI DEAR, my name is Katarina Čizmar.
+                    I am Front-End Developer and UI/UX Javascript specialist.
+                    I <i class="far fa-heart"></i> to work with Angular and ReactJS. 
+                    <br>
+                    Feel free to take a look at my CV.
+                    
+                <span class="showCV"><a href="pdf/cv.pdf" target="_blank">Show CV <i class="fas fa-external-link-alt"></i></a></span>
+            </div>
+          </div>
+            <div class="img-header col-lg-6 col-md-12 col-sm-12">
+              <img src="images/slikacv1.jpg" alt="cv" class="without-eyes">
+              <img src="images/slikacv.png" alt="cv" class="with-eyes">
+              <div class="eyes" id="circular">
+                <div class="left-eye">
+                  <div class="pupil-left"></div>
+                </div>
+                <div class="right-eye">
+                  <div class="pupil-right"></div>
+                </div>    
+              </div>
+            </div>  
+        </div>
+        
+    </div>
+    </div>
+    
+   <section>
+    <svg id="curve" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1401 375.79"><defs><style>.cls-1{fill:#fff;stroke:#000;}.cls-1,.cls-2{stroke-miterlimit:10;}.cls-2{fill:#ffc80b;stroke:#ffc80b;}</style></defs><title>Untitled-1</title><path class="cls-1" d="M1393.5,382.5" transform="translate(0 -19.71)"/><path class="cls-2" d="M.5,395.5V27.5c107,61.62,264.24,128.52,448,113,174.67-14.75,244.77-93.12,405-115,125.15-17.09,307,0,547,160v210" transform="translate(0 -19.71)"/></svg>
+    <div class="footer">
+        <div class="social">
+            <h3 id="followme">Follov me:</h3>
+            <a href="https://www.facebook.com/katarina.bocka" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/katarinabocka/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/KatarinaBocka" target="_blank"><i class="fab fa-github-square"></i></a>
+        </div>
+        <div class="contactme" id="contact">
+          <h3>Contact me:</h3>
+          <h4>katarina.bocka@gmail.com</h4>
+          <h4>+381652703815</h4>
+        </div>
+    </div> 
+   </section>
+
+  </div>
+  
+  
+  <script src="http://kodhus.com/moveit.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script src="js/navigation.js"></script>
+  <script src="js/move_eyes.js"></script>
+  <script src="js/burger_menu.js"></script>
+</body>

@@ -1,0 +1,18 @@
+section {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+// #curve {
+//     position: absolute;
+//     bottom: 0;
+//     width: 100%;
+// }
+#curve path {
+    fill: #ffc80b;
+}
+.container-fluid {
+    padding: 0 !important;
+}
